@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Grande";
+    background: rgb(36, 213, 104);
+    background: linear-gradient(90deg,
+            rgba(36, 213, 104, 1) 0%,
+            rgba(25, 210, 91, 1) 0%,
+            rgba(24, 210, 97, 1) 0%,
+            rgba(184, 251, 152, 1) 100%,
+            rgba(23, 210, 107, 1) 100%,
+            rgba(10, 211, 191, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER CSS*/
+.header {
+    background-color: #282c34;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #1a5276;
+}
+
+.header-right {
+    float: right;
+    margin-right: 0px;
+}
+
+.header-right a {
+    line-height: 100px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(136, 160, 156, 0.5);
+}
+
+.search {
+    float: right;
+    padding-top: 150px;
+    width: 350px;
+}
+
+/*MAIN CSS*/
+.data {
+    float: center;
+    padding-top: 200px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.main-left {
+    float: left;
+    width: 60%;
+}
+
+.main-right {
+    float: right;
+    margin-right: 0px;
+}
+
+/*BUTTON CSS*/
+Button {
+    width: 100%;
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn {
+    background: rgb(2, 0, 36);
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin-bottom: 20px;
+    transition: 0.25s;
+    width: 150px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: black;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.btn:active {
+    outline: 0;
+}
+
+.playlist {
+    padding: 20px 5px 10px 5px;
+    border: solid 2px rgb(95, 158, 160);
+    margin: 20px 15px 20px 15px;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.playlist-icon {
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display: block;
+}
+
+.txt-contents {
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(52, 51, 59);
+    font-weight: bold;
+}
+
+.button-div {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.aHref {
+    text-align: center;
+}
+
+.btn-playlist {
+    width: 100%;
+    color: #345543;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#btn-play {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgb(102, 145, 133) 0%,
+            rgb(104, 141, 119) 8%);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #abbeb0;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin-bottom: 20px;
+    transition: 0.25s;
+    width: 50%;
+}
+
+#btn-play:hover {
+    background: #fff;
+    color: black;
+}
+
+#btn-play:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+#btn-play:active {
+    outline: 0;
+}
+
+/*SEARCH CSS*/
+.search {
+    float: right;
+    width: 400px;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: 1px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #6b7972;
+    border: none;
+    box-shadow: 0px 1px 8px #24c64f;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    margin-bottom: 20px;
+    transition: 0.25s;
+}
+
+.search-bar:hover {
+    background: #fff;
+    color: black;
+}
+
+.search-bar:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.search-bar:active {
+    outline: 0;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.search-button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgb(102, 145, 133) 0%,
+            rgb(104, 141, 119) 8%);
+    border: none;
+    box-shadow: 0px 1px 8px #abbeb0;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.2px;
+    margin-bottom: 20px;
+    transition: 0.25s;
+    border-radius: 0 5px 5px 0;
+    width: 20%;
+}
+
+.search-button:hover {
+    background: #fff;
+    color: #444;
+}
+
+.search-button:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.search-button:active {
+    outline: 0;
+}
+
+/*SEARCH RESULT*/
+.search-result {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.parent-white {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+}
+
+.gifs {
+    display: grid;
+    place-items: center;
+    border: solid 2px rgb(95, 158, 160);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*TRENDING RESULT*/
+.trending-result {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+/*FOOTER CSS*/
+footer {
+    bottom: 0px;
+    background-color: #282c34;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    color: #fff;
+}
