@@ -26,7 +26,7 @@ const HomePageMain = ({ url, name, spotify, singer, track_num, release_date }) =
                     </div>
                 </div>
                 <HomePageMainRight />
-            </div>
+            </div>  
         </div >
     )
 };
